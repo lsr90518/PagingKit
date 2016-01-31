@@ -10,7 +10,7 @@ import io.swagger.annotations.ApiModelProperty;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Paging implements Dto {
+public class Paging {
 
     @ApiModelProperty(value = "offset", notes = "省略すると最初からです。")
     private Long offset;
